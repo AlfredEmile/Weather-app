@@ -47,7 +47,7 @@ weatherForm.addEventListener("submit", (e) => {
           messageOne.textContent = data.error;
         } else {
           messageOne.textContent = data.address;
-          messageTwo.textContent = JSON.stringify(data.weather);
+          messageTwo.textContent = data.forecast;
           console.log(data);
         }
       });

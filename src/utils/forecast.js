@@ -34,7 +34,7 @@ const forecast = (lat, lon, callback) => {
       callback("Unable to get weather data. Try again later.", undefined);
     } else {
       // const { weather } = body;
-      callback(undefined, body.weather);
+      callback(undefined, body.cod);
     }
   });
 };
