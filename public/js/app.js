@@ -1,5 +1,3 @@
-console.log("this is the javascript page");
-
 // fetch(
 //   "https://api.openweathermap.org/data/2.5/weather?q=new%20york&appid=4f9d72092d69913c7cba6dd3fa5fde89&units=us"
 // ).then((response) => {
